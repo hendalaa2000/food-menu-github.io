@@ -1,0 +1,138 @@
+/*================================ Satrt large screens =========================*/
+@media (min-width:1201px) and (max-width: 1440px) {
+    .navbar-top {
+        width: 42px;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {}
+
+/*============================== Start medium screen of tablet =========================*/
+@media (min-width: 993px) and (max-width: 1024px) {}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media (max-width:1025px) {
+    .navbar-top {
+        display: none;
+    }
+
+    .Subscribe .social-media {
+        padding: 20px 27px;
+    }
+}
+
+@media(max-width:992px) {
+    .navbar-collapse {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+
+    .navbar .icons-navbar i {
+        color: #000;
+    }
+
+    .Subscribe {
+        padding: 50px 0 !important;
+    }
+
+    .input-group {
+        margin: 20px 0;
+    }
+
+    .footer .links a {
+        padding-right: 18px;
+    }
+}
+
+/*============================== Start small screen of mobile =========================*/
+@media(max-width:768px) {
+    .section-heading .title-heading {
+        font-size: 20px;
+    }
+
+    .section-heading .icon-heading {
+        font-size: 14px;
+    }
+
+    .header .swiper-slide .slide-content {
+        left: 0;
+        top: 20%;
+    }
+
+    .header .swiper-slide .delivery {
+        position: absolute;
+        right: 0;
+        bottom: 20%;
+    }
+
+    .section-swiper {
+        position: relative;
+        bottom: 0;
+    }
+
+    .section-swiper .SwiperH .swiper-slide .card .card-body .card-text-s {
+        padding-bottom: 26px;
+    }
+
+    .Subscribe .social-media {
+        padding: 15px 21px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .header .swiper-slide img {
+        width: 50%;
+    }
+}
+
+@media(max-width:576px) {}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .header .swiper-slide .delivery h3 {
+        font-size: 30px;
+    }
+
+    .header .swiper-slide .slide-content .slide-text {
+        width: auto;
+    }
+
+    .header .swiper-slide .slide-content {
+        text-align: center;
+    }
+
+    .header .swiper-slide .delivery p {
+        width: auto;
+    }
+
+    .header-icons {
+        display: none !important;
+    }
+
+    .header .swiper-slide .slide-content .count {
+        margin: auto;
+        left: auto;
+    }
+}
+
+@media (max-width: 426px) {
+    .Subscribe .input-group .input-group-text {
+        padding: 0px 9px;
+    }
+
+    .footer .links {
+        padding: 20px 0;
+    }
+
+    .header .swiper-slide .delivery h3 {
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 1024px) {}
